@@ -1,0 +1,82 @@
+<style>#title {
+  background-color: silver;
+  font-family: Sans-Serif;
+}
+
+#survey-form {
+  background-color: dodgerblue;
+  font-family: Arial;
+}
+</style>
+<h1 id="title">Survey Form
+</h1>
+
+<p id="description"> Kindly give your valid opinion below
+</p>
+<div>
+<form id="survey-form">
+  <div>
+  <label for="name" id="name-label"> Name: 
+  <input id="name" type="text" name="name" placeholder="Your Name" required>
+ </label>
+  </div>
+  <div>
+   <label for="email" id="email-label"> Email: 
+    <input id="email" type="email" name:"email" placeholder="Your Email" required>
+    </label>
+  </div>
+  <div>
+    <label for="number" id="number-label"> Age:
+ <input id="number" type="number" name="number" placeholder="Your Age" min="18" max="100" required;>
+    </label>
+  </div>
+<div>
+  <label for="dropdown" id="select"> Select: </label>
+    <select id="dropdown">
+      <option value="I'am_new_here.">I'am new here. </option>
+      <option value="I've_already_been_here.">I've already been here.</option>      
+    </select>
+  </div>
+  <div>
+  <label for="Gender" id="gender"> Gender:
+    <br>
+      
+    </label>
+  <input name="gender" id="m" value="male" type="radio">
+    <label for="m"> Male </label>
+    <br>
+  <input name="gender" id="f" value="female" type="radio">
+    <label for="f"> Female </label>
+    <br>
+    <input name="gender" id="o" value="other" type="radio">
+    <label for="o"> Other </label>
+    
+  </div>
+  
+  <div>
+    <label for="Select" id="select"> Select:
+    <br>
+      
+    </label>
+  <input value="1" id="1" type="checkbox">
+    <label for="1"> Newsletters </label>
+    <br>
+  <input value="2" id="2" type="checkbox">
+    <label for="2"> Tips </label>
+    <br>
+    <input value="3" id="3" type="checkbox">
+    <label for="3"> Tricks </label>
+  
+  </div>
+
+  <div>
+  <label id="textarea"> Additional Comments </label>
+  <br>
+    <textarea id="textarea" name="comments" rows="5" cols="40">
+              </textarea>
+  </div>
+  <div>
+    <input id="submit" type="submit" value="Submit">
+    
+  </div>
+  </form>
