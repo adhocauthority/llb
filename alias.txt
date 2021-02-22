@@ -2,8 +2,8 @@ alias sa="sudo apt upgrade ; sudo apt update "
 alias gs="git status"   
 alias gca="git commit -a"
 alias gaa="git add -A"
-alias gplom="git pull origin main"
-alias gpsom="git push origin main"
+alias pl="git pull origin main"
+alias ps="git push origin main"
 
 
 
