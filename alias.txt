@@ -4,7 +4,7 @@ alias gca="git commit -a"
 alias gaa="git add -A"
 alias pl="git pull origin main"
 alias ps="git push origin main"
-
+alias x="xdg-open"
 
 
 
