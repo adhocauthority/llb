@@ -7,7 +7,8 @@ alias ps="git push origin main"
 alias x="xdg-open"
 alias i="sudo apt install"
 alias r="sudo apt remove"
-
+alias nf="neofetch"
+alias e="emacs"
 
 
 
