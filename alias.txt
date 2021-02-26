@@ -9,7 +9,7 @@ alias i="sudo apt install"
 alias r="sudo apt remove"
 alias nf="neofetch"
 alias e="emacs"
-
+alias n="nano"
 
 
 
