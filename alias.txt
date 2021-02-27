@@ -10,7 +10,7 @@ alias r="sudo apt remove"
 alias nf="neofetch"
 alias e="emacs"
 alias n="nano"
-
+alias y="youtube-dl"
 
 
 
