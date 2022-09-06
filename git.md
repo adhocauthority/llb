@@ -1,5 +1,5 @@
-git config --global user.name "Your Name"
-git config --global user.email "yourname@example.com"
+git config --global user.name "Sairam"
+git config --global user.email "adhautho@gmail.com"
 
 
 
@@ -30,7 +30,7 @@ cat ~/.ssh/id_ed25519.pub
 
 
 
-ssh-keygen -t ed25519 -C <youremail>
+ssh-keygen -t ed25519 -C adhautho@gmail.com
 
 
 
