@@ -1,5 +1,5 @@
 
-alias sa="sudo apt upgrade ; sudo apt update "  
+alias sa="sudo apt upgrade ; sudo apt update -y"  
 alias gs="git status"   
 alias gca="git commit -a"
 alias gaa="git add -A"
@@ -19,7 +19,7 @@ alias y="youtube-dl"
 
 
 
-alias sa="sudo apt upgrade ; sudo apt update "
+alias sa="sudo apt upgrade ; sudo apt update -y"
 alias gs="git status"
 alias gca="git commit -a"
 alias gcc="git commit"
