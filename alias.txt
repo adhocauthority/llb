@@ -6,8 +6,8 @@ alias gaa="git add -A"
 alias pl="git pull origin main"
 alias ps="git push origin main"
 alias x="xdg-open"
-alias i="sudo apt install"
-alias r="sudo apt remove"
+alias i="sudo apt install -y"
+alias r="sudo apt remove -y"
 alias nf="neofetch"
 alias e="emacs"
 alias n="nano"
@@ -27,8 +27,8 @@ alias gaa="git add -A"
 alias pl="git pull origin main"
 alias ps="git push origin main"
 alias x="xdg-open"
-alias i="sudo apt install"
-alias r="sudo apt remove"
+alias i="sudo apt install -y"
+alias r="sudo apt remove -y"
 alias nf="neofetch"
 alias e="emacs"
 alias n="nano"
@@ -38,6 +38,22 @@ alias z="sudo zypper install"
 alias zu="sudo zypper update"
 alias zr="sudo zypper remove"
 alias re="sudo zypper repos"
+
+
+alias fi="flatpak install flathub -y"
+alias fr="flatpak remove -y"
+alias fu="flatpak upgrade"
+
+
+
+
+
+
+alias si="sudo snap install"
+alias sr="sudo snap remove"
+alias su="sudo snap refresh"
+
+
 
 
 
