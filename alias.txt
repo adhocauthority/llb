@@ -53,8 +53,8 @@ alias si="sudo snap install"
 alias sr="sudo snap remove"
 alias su="sudo snap refresh"
 
-
-
+alias t="touch"
+alias p="python"
 
 
 
