@@ -95,3 +95,83 @@ del avengers[3]
 print(avengers)
 
 
+
+avengers= ['cap' , 'ironman' , 'thor' , 'hulk']
+popped_avengers= avengers.pop()
+print(avengers)
+print(popped_avengers)
+
+
+avengers= ['captain america' , 'ironman' , 'thor' , 'hulk']
+avengers[3]='spiderman'
+popped_avengers= avengers.pop()
+firstavenger= avengers.pop(0)
+deceased_avengers= 'ironman'
+avengers.remove(deceased_avengers)
+print(avengers)
+print(popped_avengers)
+print(f"The newest Avenger is {popped_avengers.title()}.")
+print(f"The First Avenger was {firstavenger.title()}.")
+print(f"\n {deceased_avengers.title()} is deceased.")
+
+
+
+justice_league=['batman' , 'superman' , 'wonderwoman' , 'the flash' , 'martian manhunter' , 'green lantern' , 'green arrow' , 'cyborg' , 'aquaman' , 'steel']
+league_members=(justice_league.pop(9))
+
+print(justice_league)
+
+
+
+justice_league=['batman' , 'superman' , 'wonderwoman' , 'the flash' , 'martian manhunter' , 'green lantern' , 'green arrow' , 'cyborg' , 'aquaman' , 'steel']
+justice_league[9]='robin'
+non_members='robin'
+justice_league.remove(non_members)
+print(justice_league)
+
+
+
+
+print("There's room for more superheroes")
+
+justice_league=['batman' , 'superman' , 'wonderwoman' , 'the flash' , 'martian manhunter' , 'green lantern' , 'green arrow' , 'cyborg' , 'aquaman' , 'steel']
+justice_league.insert(0, 'shazam')
+justice_league.insert(3, 'someguy')
+justice_league.append('somegal')
+print(justice_league)
+print(sorted(justice_league))
+print("\nOops! Spoke too soon. There isn't any more room left.")
+justice_league.remove('shazam')
+justice_league.remove('someguy')
+justice_league.pop()
+justice_league.sort()
+print(justice_league)
+justice_league.reverse()
+print(justice_league)
+print(justice_league[-5])
+
+
+
+
+vampires = ['\n\n\n\n\n\n' , 'Stefan Salvatore' , 'Damon Salvatore' , 'Niklaus Michealson' , 'Elijah Michealson' , 'Rebekah Michealson' , 'Catherine Pierce' , 'Elena Gilbert' , 'Caroline Forbes' , 'Finn Michealson' , 'Marcel Gerard' , 'Vicki Donovan']
+for vampire in vampires:
+    print(vampire)
+    print(f"{vampire.title()}, is a vampire!")
+    print(f"Nice to meet you!, {vampire.title()}.\n")
+    
+print("They're from The Vampire Diaries")
+    
+    
+    
+
+vampires = ['Stefan Salvatore' , 'Damon Salvatore' , 'Niklaus Michealson' , 'Elijah Michealson' , 'Rebekah Michealson' , 'Catherine Pierce' , 'Elena Gilbert' , 'Caroline Forbes' , 'Finn Michealson' , 'Marcel Gerard' , 'Vicki Donovan']
+print(vampires[5:8])
+print(vampires[:5])
+print(vampires[5:])
+
+
+
+
+
+
+
