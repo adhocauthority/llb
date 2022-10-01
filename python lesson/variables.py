@@ -168,7 +168,7 @@ vampires = ['Stefan Salvatore' , 'Damon Salvatore' , 'Niklaus Michealson' , 'Eli
 print(vampires[5:8])
 print(vampires[:5])
 print(vampires[5:])
-
+print(vampires[2], "is the craziest vampire.")
 
 
 
