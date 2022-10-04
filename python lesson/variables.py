@@ -172,6 +172,15 @@ print(vampires[2], "is the craziest vampire.")
 
 
 
+originals = ['niklaus michealson' , 'elijah michealson' , 'rebekah michealson' , 'finn michealson' , ]
+vampires = originals[:]
+vampires.append('stefan salvatore')
+
+print("the vampires are: ")
+print(originals)
+
+print("\nthe vampires are:")
+print(vampires)
 
 
 
