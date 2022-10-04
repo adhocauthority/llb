@@ -57,11 +57,11 @@ alias t="touch"
 alias p="python"
 alias th="thonny"
 alias stk="supertuxkart"
+alias f="featherpad"
 
 
 
-
-alias firstinstall="sudo apt install thonny python timeshift vlc kate okular gimp kpatience stacer PCManFM nano xdg-open neofetch git"
+alias firstinstall="sudo apt install thonny python timeshift vlc kate okular gimp kpatience stacer PCManFM nano xdg-open neofetch git featherpad"
 alias fiflatpak=" flatpak install flathub com.raggesilver.BlackBox com.microsoft.Edge com.brave.Browser org.pulseaudio.pavucontrol com.uploadedlobster.peek com.dropbox.Client org.telegram.desktop io.freetubeapp.FreeTube"
 
 

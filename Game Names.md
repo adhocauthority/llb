@@ -19,6 +19,8 @@
 														Meerch Kustards
 														Bluvikan Brihfrays
 														Shae Ricwardson
+														Juanos Milkford
+														Tigris Tenkos
 
 
 
