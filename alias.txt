@@ -69,3 +69,4 @@ alias fiflatpak=" flatpak install flathub com.raggesilver.BlackBox com.microsoft
 
 alias ni="sudo nala install -y"
 alias nr="sudo nala remove -y"
+alias up="sudo nala upgrade ; sudo nala update -y"
