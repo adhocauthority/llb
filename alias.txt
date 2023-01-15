@@ -12,13 +12,6 @@ alias nf="neofetch"
 alias e="emacs"
 alias n="nano"
 alias y="youtube-dl"
-
-
-
-
-
-
-
 alias sa="sudo apt upgrade ; sudo apt update -y"
 alias gs="git status"
 alias gca="git commit -a"
@@ -38,35 +31,19 @@ alias z="sudo zypper install"
 alias zu="sudo zypper update"
 alias zr="sudo zypper remove"
 alias re="sudo zypper repos"
-
-
 alias fi="flatpak install flathub -y"
 alias fr="flatpak remove -y"
 alias fu="flatpak upgrade"
-
-
-
-
-
-
 alias si="sudo snap install"
 alias sr="sudo snap remove"
 alias su="sudo snap refresh"
-
 alias t="touch"
 alias p="python"
 alias th="thonny"
 alias stk="supertuxkart"
 alias f="featherpad"
-
-
-
 alias firstinstall="sudo apt install thonny python timeshift vlc kate okular gimp kpatience stacer PCManFM nano xdg-open neofetch git featherpad"
 alias fiflatpak=" flatpak install flathub com.raggesilver.BlackBox com.microsoft.Edge com.brave.Browser org.pulseaudio.pavucontrol com.uploadedlobster.peek com.dropbox.Client org.telegram.desktop io.freetubeapp.FreeTube"
-
-
-
-
-alias ni="sudo nala install -y"
-alias nr="sudo nala remove -y"
-alias up="sudo nala upgrade ; sudo nala update -y"
+alias ni="sudo nala install"
+alias nr="sudo nala remove"
+alias up="sudo nala upgrade ; sudo nala update"
